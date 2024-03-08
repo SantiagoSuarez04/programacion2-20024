@@ -13,7 +13,7 @@ class Contacto {
         this.email = email;
     }
 
-    // Métodos para acceder y modificar los atributos del contacto
+   
     public String getNombre() {
         return nombre;
     }
@@ -61,7 +61,7 @@ public class Exercise4 {
             System.out.print("Seleccione una opción: ");
 
             int opcion = scanner.nextInt();
-            scanner.nextLine(); // Consumir la nueva línea después de nextInt()
+            scanner.nextLine(); 
 
             switch (opcion) {
                 case 1:
@@ -159,7 +159,6 @@ public class Exercise4 {
             }
         }
 
-        // Cerramos el scanner al salir del bucle
         scanner.close();
     }
 }
